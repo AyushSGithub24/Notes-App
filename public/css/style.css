@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  header img {
+    width: 40px;
+    height: 40px;
+  }
+
+  header h1 {
+    font-size: 24px;
+    color: #5f6368;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+
+  .container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .note {
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px;
+    min-height: 150px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .note:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .note textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    width: 100%;
+    background: none;
+    color: #202124;
+  }
+
+  .note button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+
+  .note button:hover {
+    background-color: #185abc;
+  }
+
+  .add-note {
+    background-color: #fff;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add-note textarea {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 15px;
+  }
+
+  .add-note button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  .add-note button:hover {
+    background-color: #185abc;
+  }
+
+  .edit-mode {
+    border: 1px solid #1a73e8;
+    background-color: #e8f0fe;
+  }
