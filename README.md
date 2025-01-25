@@ -70,6 +70,10 @@ Delete a note by its ID.
 2. Edit an existing note by clicking "Edit," making changes, and saving it.
 3. Delete a note by clicking the "Delete" button.
 
+UI should look like
+![image](https://github.com/user-attachments/assets/296c4a8d-ecde-4922-9d5c-80429bb60c61)
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
